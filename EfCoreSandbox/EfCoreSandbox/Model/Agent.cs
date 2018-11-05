@@ -5,6 +5,7 @@ namespace EfCoreSandbox.Model
     class Agent
     {
         public int Id { get; set; }
-        public IList<Capability> Capabilities { get; set; }
+        public string Owner { get; set; }
+        public ICollection<Capability> Capabilities { get; set; } = new List<Capability>();
     }
 }
