@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using EfCoreSandbox.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace EfCoreSandbox
 {
@@ -32,10 +33,30 @@ namespace EfCoreSandbox
             Agent existing;
             using (var context = new AgentContext())
             {
-                existing = context.Agents.First();
+                existing = context.Agents.Include(p => p.Capabilities).First();
             }
             existing.Capabilities.Clear();
             existing.Capabilities.Add(new Capability {AgentId = existing.Id, Name = "platform", Value = "win7"});
+
+
+            using (var context = new AgentContext())
+            {
+                var agentFromDb = context.Agents.Find(existing.Id);
+                var entry = context.Entry(agentFromDb);
+                entry.CurrentValues.SetValues(existing);
+                entry.State = EntityState.Modified;
+                foreach (var capability in agentFromDb.Capabilities)
+                {
+                    context.Entry(capability).State = EntityState.Deleted;
+                }
+
+                foreach (var capability in existing.Capabilities.ToArray())
+                {
+                    agentFromDb.Capabilities.Add(capability);
+                    //_context.Entry(capability).CurrentValues.SetValues(capability);
+                    context.Entry(capability).State = EntityState.Added;
+                }
+            }
         }
     }
 }
