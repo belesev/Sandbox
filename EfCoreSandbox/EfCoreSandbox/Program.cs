@@ -54,7 +54,6 @@ namespace EfCoreSandbox
                 foreach (var capability in existing.Capabilities.ToArray())
                 {
                     agentFromDb.Capabilities.Add(capability);
-                    //_context.Entry(capability).CurrentValues.SetValues(capability);
                     context.Entry(capability).State = EntityState.Added;
                 }
 
