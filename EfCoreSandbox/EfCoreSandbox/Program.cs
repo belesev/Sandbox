@@ -36,12 +36,13 @@ namespace EfCoreSandbox
                 existing = context.Agents.Include(p => p.Capabilities).First();
             }
             existing.Capabilities.Clear();
-            existing.Capabilities.Add(new Capability {AgentId = existing.Id, Name = "platform", Value = "win7"});
+            existing.Capabilities.Add(new Capability {AgentId = existing.Id, Name = "platform", Value = "win8"});
+            existing.Owner = "KIS";
 
 
             using (var context = new AgentContext())
             {
-                var agentFromDb = context.Agents.Find(existing.Id);
+                var agentFromDb = context.Agents.Include(p => p.Capabilities).Single(p => p.Id == existing.Id);
                 var entry = context.Entry(agentFromDb);
                 entry.CurrentValues.SetValues(existing);
                 entry.State = EntityState.Modified;
@@ -56,6 +57,8 @@ namespace EfCoreSandbox
                     //_context.Entry(capability).CurrentValues.SetValues(capability);
                     context.Entry(capability).State = EntityState.Added;
                 }
+
+                context.SaveChanges();
             }
         }
     }
