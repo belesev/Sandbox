@@ -1,0 +1,11 @@
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\bin\Debug\netcoreapp2.1\EfCoreSandbox.deps.json
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\bin\Debug\netcoreapp2.1\EfCoreSandbox.runtimeconfig.json
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\bin\Debug\netcoreapp2.1\EfCoreSandbox.runtimeconfig.dev.json
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\bin\Debug\netcoreapp2.1\EfCoreSandbox.dll
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.csprojResolveAssemblyReference.cache
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.csproj.CoreCompileInputs.cache
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.AssemblyInfoInputs.cache
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.AssemblyInfo.cs
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\bin\Debug\netcoreapp2.1\EfCoreSandbox.pdb
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.dll
+D:\BSA\Repo\Sandbox\EfCoreSandbox\EfCoreSandbox\obj\Debug\netcoreapp2.1\EfCoreSandbox.pdb
