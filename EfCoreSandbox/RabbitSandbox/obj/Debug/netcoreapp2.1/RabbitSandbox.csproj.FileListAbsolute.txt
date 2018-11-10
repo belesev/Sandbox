@@ -1,0 +1,11 @@
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\bin\Debug\netcoreapp2.1\RabbitSandbox.deps.json
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\bin\Debug\netcoreapp2.1\RabbitSandbox.runtimeconfig.json
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\bin\Debug\netcoreapp2.1\RabbitSandbox.runtimeconfig.dev.json
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\bin\Debug\netcoreapp2.1\RabbitSandbox.dll
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.csproj.CoreCompileInputs.cache
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.AssemblyInfoInputs.cache
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.AssemblyInfo.cs
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\bin\Debug\netcoreapp2.1\RabbitSandbox.pdb
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.dll
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.pdb
+C:\Work\Sandbox\EfCoreSandbox\RabbitSandbox\obj\Debug\netcoreapp2.1\RabbitSandbox.csprojAssemblyReference.cache
